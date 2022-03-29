@@ -5,13 +5,13 @@ variable "aws_region" {
 }
 
 variable "access_key_id" {
-  description = "AWS access key"
+  description = "AWS access id"
   type        = string
   default     = "some_value"
 }
 
 variable "secret_access_key" {
-  description = "AWS access id"
+  description = "AWS access key"
   type        = string
   default     = "some_value"
 }
@@ -19,7 +19,7 @@ variable "secret_access_key" {
 variable "capic_template_url" {
   description = "CloudFormation template URL for CAPIC"
   type        = string
-  default     = "https://s3.amazonaws.com/awsmp-fulfillment-cf-templates-prod/6cad9a0e-821a-4f03-881e-fb1f66f4dc1f/701f86dae59c46b1994f687f85e0aca3.template"
+  default     = "https://s3.amazonaws.com/awsmp-fulfillment-cf-templates-prod/6cad9a0e-821a-4f03-881e-fb1f66f4dc1f/c636799095224e63a6074ca3308fe27f.template"
 }
 
 variable "capic_stack_name" {
